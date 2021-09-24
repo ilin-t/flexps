@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wno-deprecated-declarations -g -g -DHUSKY_DEBUG_MODE -rdynamic CMakeFiles/LRExample.dir/logistic_regression.cpp.o -o ../LRExample  -Wl,-rpath,/usr/local/lib ../test/libflexps.a ../lib/libglog.a ../lib/libgflags.a -lzmq -lpthread /usr/local/lib/libhdfs3.so 

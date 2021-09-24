@@ -25,7 +25,7 @@ def launch_nodes(prog_path, hostfile_path, env_params, params):
         hostlist.append(line.split(":"))
   
     for [node_id, host, port] in hostlist:
-      print "node_id:%s, host:%s, port:%s" %(node_id, host, port)
+      print("node_id:%s, host:%s, port:%s" %(node_id, host, port))
       cmd = ssh_cmd + host + " "  # Start ssh command
       cmd += "\""  # Remote command starts
       cmd += clear_cmd
@@ -36,14 +36,14 @@ def launch_nodes(prog_path, hostfile_path, env_params, params):
   
       cmd += "\""  # Remote Command ends
       cmd += " &"
-      print cmd
+      print(cmd)
       os.system(cmd)
 
 
 def kill_nodes(prog_name, hostfile_path):
   assert os.path.isfile(hostfile_path)
   prog_name = prog_name.split("/")[-1]  # To prevent users give a path to prog
-  print "Start killing <%s> according to <%s>" % (prog_name, hostfile_path)
+  print("Start killing <%s> according to <%s>" % (prog_name, hostfile_path))
 
   # Get host IPs
   with open(hostfile_path, "r") as f:
@@ -53,16 +53,16 @@ def kill_nodes(prog_name, hostfile_path):
   for ip in host_ips:
     cmd = ssh_cmd + ip + " killall -q " + prog_name
     os.system(cmd)
-  print "Done killing <%s> for <%s>" % (prog_name, hostfile_path)
+  print("Done killing <%s> for <%s>" % (prog_name, hostfile_path))
 
 
 def parse_file(progfile, hostfile):
   script_path = os.path.realpath(__file__)
   proj_dir = dirname(dirname(script_path))
-  print "flexps porj_dir:", proj_dir
+  print("flexps porj_dir:", proj_dir)
   hostfile_path = join(proj_dir, hostfile)
   prog_path = join(proj_dir, progfile)
-  print "hostfile_path:%s, prog_path:%s" % (hostfile_path, prog_path)
+  print("hostfile_path:%s, prog_path:%s" % (hostfile_path, prog_path))
   return prog_path, hostfile_path
 
 
@@ -74,4 +74,4 @@ def launch_util(progfile, hostfile, env_params, params, argv):
   elif len(argv) == 2 and argv[1] == "kill":
     kill_nodes(prog_path, hostfile_path)
   else:
-    print "arg error: " + str(argv)
+    print("arg error: " + str(argv))

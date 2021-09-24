@@ -1,0 +1,1278 @@
+The system is: Linux - 5.4.0-86-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/3.20.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/3.20.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_faa8e/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_faa8e.dir/build.make CMakeFiles/cmTC_faa8e.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_faa8e.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_faa8e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccz6QN1n.s
+GNU C17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a5cb433bfad562b0bb308208b768c583
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_faa8e.dir/'
+ as -v --64 -o CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o /tmp/ccz6QN1n.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_faa8e
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa8e.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o -o cmTC_faa8e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_faa8e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_faa8e.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLMAZn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_faa8e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_faa8e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_faa8e.'
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_faa8e/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_faa8e.dir/build.make CMakeFiles/cmTC_faa8e.dir/build]
+  ignore line: [make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_faa8e.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_faa8e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccz6QN1n.s]
+  ignore line: [GNU C17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a5cb433bfad562b0bb308208b768c583]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_faa8e.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o /tmp/ccz6QN1n.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_faa8e]
+  ignore line: [/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa8e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o -o cmTC_faa8e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_faa8e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_faa8e.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLMAZn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_faa8e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPLMAZn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_faa8e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_faa8e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d9f8/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9d9f8.dir/build.make CMakeFiles/cmTC_9d9f8.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d9f8.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9d9f8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccJqvDEp.s
+GNU C++17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fa8709337e38341bd283d8a4fb935104
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d9f8.dir/'
+ as -v --64 -o CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJqvDEp.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_9d9f8
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d9f8.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d9f8 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9d9f8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9d9f8.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpGmE9s.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9d9f8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9d9f8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9d9f8.'
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d9f8/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_9d9f8.dir/build.make CMakeFiles/cmTC_9d9f8.dir/build]
+  ignore line: [make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d9f8.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9d9f8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccJqvDEp.s]
+  ignore line: [GNU C++17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.1.0-1ubuntu1~18.04.1) version 11.1.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fa8709337e38341bd283d8a4fb935104]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d9f8.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJqvDEp.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_9d9f8]
+  ignore line: [/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d9f8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d9f8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.1.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-YRKbe7/gcc-11-11.1.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.1.0 (Ubuntu 11.1.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9d9f8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9d9f8.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpGmE9s.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9d9f8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpGmE9s.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9d9f8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_9d9f8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68dcd/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_68dcd.dir/build.make CMakeFiles/cmTC_68dcd.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68dcd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_68dcd.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_68dcd
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68dcd.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_68dcd.dir/CheckIncludeFile.c.o -o cmTC_68dcd 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_01a3f/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_01a3f.dir/build.make CMakeFiles/cmTC_01a3f.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01a3f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_01a3f.dir/CheckFunctionExists.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01a3f
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a3f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_01a3f.dir/CheckFunctionExists.c.o -o cmTC_01a3f  -lpthread 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_94e64/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_94e64.dir/build.make CMakeFiles/cmTC_94e64.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94e64.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_94e64.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_94e64
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e64.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_94e64.dir/CheckIncludeFile.c.o -o cmTC_94e64 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f723/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7f723.dir/build.make CMakeFiles/cmTC_7f723.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f723.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7f723.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7f723
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f723.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7f723.dir/CheckIncludeFile.c.o -o cmTC_7f723 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29faa/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_29faa.dir/build.make CMakeFiles/cmTC_29faa.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29faa.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29faa.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29faa
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29faa.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_29faa.dir/CheckIncludeFile.c.o -o cmTC_29faa 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_48cf3/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_48cf3.dir/build.make CMakeFiles/cmTC_48cf3.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48cf3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_48cf3.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48cf3
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48cf3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_48cf3.dir/CheckIncludeFile.c.o -o cmTC_48cf3 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0bc93/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_0bc93.dir/build.make CMakeFiles/cmTC_0bc93.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bc93.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0bc93.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0bc93
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc93.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_0bc93.dir/CheckIncludeFile.c.o -o cmTC_0bc93 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9eb89/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9eb89.dir/build.make CMakeFiles/cmTC_9eb89.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9eb89.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9eb89.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9eb89
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb89.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9eb89.dir/CheckIncludeFile.c.o -o cmTC_9eb89 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a7279/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a7279.dir/build.make CMakeFiles/cmTC_a7279.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7279.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7279.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a7279
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7279.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a7279.dir/CheckIncludeFile.c.o -o cmTC_a7279 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_78cb8/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_78cb8.dir/build.make CMakeFiles/cmTC_78cb8.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78cb8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_78cb8.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_78cb8
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78cb8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_78cb8.dir/CheckIncludeFile.c.o -o cmTC_78cb8 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b15c1/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b15c1.dir/build.make CMakeFiles/cmTC_b15c1.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b15c1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b15c1.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b15c1
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b15c1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b15c1.dir/CheckIncludeFile.c.o -o cmTC_b15c1 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6bc0/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b6bc0.dir/build.make CMakeFiles/cmTC_b6bc0.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6bc0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b6bc0.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b6bc0
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6bc0.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b6bc0.dir/CheckIncludeFile.c.o -o cmTC_b6bc0 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b2edd/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b2edd.dir/build.make CMakeFiles/cmTC_b2edd.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2edd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b2edd.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b2edd
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2edd.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b2edd.dir/CheckIncludeFile.c.o -o cmTC_b2edd 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_67cba/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_67cba.dir/build.make CMakeFiles/cmTC_67cba.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67cba.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_67cba.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67cba
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67cba.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_67cba.dir/CheckIncludeFile.c.o -o cmTC_67cba 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_416fc/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_416fc.dir/build.make CMakeFiles/cmTC_416fc.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_416fc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_416fc.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_416fc
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_416fc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_416fc.dir/CheckIncludeFile.c.o -o cmTC_416fc 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_54f29/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_54f29.dir/build.make CMakeFiles/cmTC_54f29.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54f29.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_54f29.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_54f29
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54f29.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_54f29.dir/CheckIncludeFile.c.o -o cmTC_54f29 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1c22/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b1c22.dir/build.make CMakeFiles/cmTC_b1c22.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1c22.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b1c22.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b1c22
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1c22.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b1c22.dir/CheckIncludeFile.c.o -o cmTC_b1c22 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50d9c/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_50d9c.dir/build.make CMakeFiles/cmTC_50d9c.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50d9c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_50d9c.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_50d9c
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50d9c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_50d9c.dir/CheckIncludeFile.c.o -o cmTC_50d9c 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5b54c/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5b54c.dir/build.make CMakeFiles/cmTC_5b54c.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b54c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b54c.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5b54c
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b54c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5b54c.dir/CheckIncludeFile.c.o -o cmTC_5b54c 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6f6b/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c6f6b.dir/build.make CMakeFiles/cmTC_c6f6b.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6f6b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6f6b.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c6f6b
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f6b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c6f6b.dir/CheckIncludeFile.c.o -o cmTC_c6f6b 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_185fc/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_185fc.dir/build.make CMakeFiles/cmTC_185fc.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_185fc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_185fc.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_185fc
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_185fc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_185fc.dir/CheckIncludeFile.c.o -o cmTC_185fc 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a8a61/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a8a61.dir/build.make CMakeFiles/cmTC_a8a61.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8a61.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a8a61.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a8a61
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a61.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a8a61.dir/CheckIncludeFile.c.o -o cmTC_a8a61 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2a9f2/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2a9f2.dir/build.make CMakeFiles/cmTC_2a9f2.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a9f2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_2a9f2.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/11/ext/hash_map:60,
+                 from /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/11/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_2a9f2
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a9f2.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_2a9f2.dir/CheckIncludeFile.cxx.o -o cmTC_2a9f2 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_36829/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_36829.dir/build.make CMakeFiles/cmTC_36829.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36829.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_36829.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/11/ext/hash_set:60,
+                 from /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/11/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_36829
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36829.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_36829.dir/CheckIncludeFile.cxx.o -o cmTC_36829 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e28bd/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e28bd.dir/build.make CMakeFiles/cmTC_e28bd.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e28bd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_e28bd.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e28bd
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e28bd.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_e28bd.dir/CheckIncludeFile.cxx.o -o cmTC_e28bd 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7cec3/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7cec3.dir/build.make CMakeFiles/cmTC_7cec3.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7cec3.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_7cec3.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_7cec3
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cec3.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_7cec3.dir/CheckIncludeFile.cxx.o -o cmTC_7cec3 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_56785/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_56785.dir/build.make CMakeFiles/cmTC_56785.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56785.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_56785.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_56785
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56785.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_56785.dir/CheckIncludeFile.cxx.o -o cmTC_56785 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0dc3/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a0dc3.dir/build.make CMakeFiles/cmTC_a0dc3.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0dc3.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_a0dc3.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a0dc3
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0dc3.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_a0dc3.dir/CheckIncludeFile.cxx.o -o cmTC_a0dc3 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_809fa/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_809fa.dir/build.make CMakeFiles/cmTC_809fa.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_809fa.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_809fa.dir/CheckIncludeFile.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_809fa
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_809fa.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_809fa.dir/CheckIncludeFile.cxx.o -o cmTC_809fa 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb494/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_eb494.dir/build.make CMakeFiles/cmTC_eb494.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb494.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eb494.dir/CheckIncludeFile.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eb494
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb494.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_eb494.dir/CheckIncludeFile.c.o -o cmTC_eb494 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ec21/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9ec21.dir/build.make CMakeFiles/cmTC_9ec21.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ec21.dir/HAVE_U_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ec21.dir/HAVE_U_INT16_T.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+Linking C executable cmTC_9ec21
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec21.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9ec21.dir/HAVE_U_INT16_T.c.o -o cmTC_9ec21 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37800/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_37800.dir/build.make CMakeFiles/cmTC_37800.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37800.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_37800.dir/HAVE_UINT16_T.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTC_37800
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37800.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_37800.dir/HAVE_UINT16_T.c.o -o cmTC_37800 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8b641/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8b641.dir/build.make CMakeFiles/cmTC_8b641.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b641.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_8b641.dir/CheckFunctionExists.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b641
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b641.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl -rdynamic CMakeFiles/cmTC_8b641.dir/CheckFunctionExists.c.o -o cmTC_8b641 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b294b/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b294b.dir/build.make CMakeFiles/cmTC_b294b.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b294b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread -o CMakeFiles/cmTC_b294b.dir/CheckFunctionExists.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b294b
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b294b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread -rdynamic CMakeFiles/cmTC_b294b.dir/CheckFunctionExists.c.o -o cmTC_b294b 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35dee/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_35dee.dir/build.make CMakeFiles/cmTC_35dee.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35dee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite -o CMakeFiles/cmTC_35dee.dir/CheckFunctionExists.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_35dee
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35dee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite -rdynamic CMakeFiles/cmTC_35dee.dir/CheckFunctionExists.c.o -o cmTC_35dee 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5727f/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5727f.dir/build.make CMakeFiles/cmTC_5727f.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5727f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -o CMakeFiles/cmTC_5727f.dir/CheckFunctionExists.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5727f
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5727f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -rdynamic CMakeFiles/cmTC_5727f.dir/CheckFunctionExists.c.o -o cmTC_5727f 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_79758/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_79758.dir/build.make CMakeFiles/cmTC_79758.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79758.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack -o CMakeFiles/cmTC_79758.dir/CheckFunctionExists.c.o -c /snap/clion/164/bin/cmake/linux/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79758
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79758.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack -rdynamic CMakeFiles/cmTC_79758.dir/CheckFunctionExists.c.o -o cmTC_79758 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_96076/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_96076.dir/build.make CMakeFiles/cmTC_96076.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96076.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_DEPRECATED  -Wdeprecated -o CMakeFiles/cmTC_96076.dir/src.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96076
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96076.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_96076.dir/src.cxx.o -o cmTC_96076 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2114c/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2114c.dir/build.make CMakeFiles/cmTC_2114c.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2114c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2114c.dir/CheckSymbolExists.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2114c
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2114c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2114c.dir/CheckSymbolExists.c.o -o cmTC_2114c 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+File /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4735b/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4735b.dir/build.make CMakeFiles/cmTC_4735b.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4735b.dir/src.c.o
+/usr/bin/cc -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_4735b.dir/src.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4735b
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4735b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4735b.dir/src.c.o -o cmTC_4735b 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85e0e/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_85e0e.dir/build.make CMakeFiles/cmTC_85e0e.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85e0e.dir/src.c.o
+/usr/bin/cc -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_85e0e.dir/src.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c
+/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      | ^~~~~~
+Linking C executable cmTC_85e0e
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85e0e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_85e0e.dir/src.c.o -o cmTC_85e0e 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_67ad4/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_67ad4.dir/build.make CMakeFiles/cmTC_67ad4.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ad4.dir/src.c.o
+/usr/bin/cc -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_67ad4.dir/src.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c
+/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      | ^~~~~~
+Linking C executable cmTC_67ad4
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ad4.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_67ad4.dir/src.c.o -o cmTC_67ad4 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37a64/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_37a64.dir/build.make CMakeFiles/cmTC_37a64.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37a64.dir/src.c.o
+/usr/bin/cc -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_37a64.dir/src.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_37a64
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37a64.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_37a64.dir/src.c.o -o cmTC_37a64 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de724/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_de724.dir/build.make CMakeFiles/cmTC_de724.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de724.dir/src.c.o
+/usr/bin/cc -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_de724.dir/src.c.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_de724
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de724.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_de724.dir/src.c.o -o cmTC_de724 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d666/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7d666.dir/build.make CMakeFiles/cmTC_7d666.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d666.dir/src.cxx.o
+/usr/bin/c++ -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_7d666.dir/src.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7d666
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d666.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_7d666.dir/src.cxx.o -o cmTC_7d666 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4205e/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4205e.dir/build.make CMakeFiles/cmTC_4205e.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4205e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_4205e.dir/src.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4205e
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4205e.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_4205e.dir/src.cxx.o -o cmTC_4205e 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_874be/fast && make[4]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_874be.dir/build.make CMakeFiles/cmTC_874be.dir/build
+make[5]: Entering directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_874be.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_874be.dir/src.cxx.o -c /home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_874be
+/snap/clion/164/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_874be.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_874be.dir/src.cxx.o -o cmTC_874be 
+make[5]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory '/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug/third_party/src/glog-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+

@@ -14,8 +14,8 @@ from launch_utils import launch_util
 # 3:worker4:37542
 # 4:worker5:37542
 # 
-# hostfile = "machinefiles/local"
-hostfile = "machinefiles/5node"
+hostfile = "machinefiles/local"
+# hostfile = "machinefiles/5node"
 progfile = "debug/BasicExample"
 
 params = {

@@ -1,8 +1,10 @@
 #include "io/hdfs_manager.hpp"
 
-#include "io/hdfs_assigner.hpp"
+#include <functional>
+
 #include "gflags/gflags.h"
 #include "glog/logging.h"
+#include "io/hdfs_assigner.hpp"
 
 namespace flexps {
 

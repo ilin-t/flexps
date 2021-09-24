@@ -1,13 +1,14 @@
 #pragma once
 
+#include <functional>
 #include <thread>
-#include "gflags/gflags.h"
-#include "glog/logging.h"
 
 #include "base/node.hpp"
 #include "base/node_util.hpp"
 #include "base/serialization.hpp"
 #include "boost/utility/string_ref.hpp"
+#include "gflags/gflags.h"
+#include "glog/logging.h"
 #include "io/coordinator.hpp"
 #include "io/lineinput.hpp"
 

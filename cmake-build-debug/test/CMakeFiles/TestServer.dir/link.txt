@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wno-deprecated-declarations -g -g -DHUSKY_DEBUG_MODE -rdynamic CMakeFiles/TestServer.dir/test_server.cpp.o -o ../TestServer  -Wl,-rpath,/usr/local/lib libflexps.a ../lib/libglog.a ../lib/libgflags.a -lzmq -lpthread /usr/local/lib/libhdfs3.so 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wno-deprecated-declarations -g -g -DHUSKY_DEBUG_MODE -rdynamic CMakeFiles/SparseSSPExample.dir/sparse_ssp_example.cpp.o -o ../SparseSSPExample  -Wl,-rpath,/usr/local/lib ../test/libflexps.a ../lib/libglog.a ../lib/libgflags.a -lzmq -lpthread /usr/local/lib/libhdfs3.so 
