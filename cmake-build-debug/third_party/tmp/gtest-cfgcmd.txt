@@ -1,1 +1,0 @@
-cmd='/snap/clion/164/bin/cmake/linux/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/ilint/repositories/ps-benchmarks/flexps/cmake-build-debug;-Dgtest_disable_pthreads=ON;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

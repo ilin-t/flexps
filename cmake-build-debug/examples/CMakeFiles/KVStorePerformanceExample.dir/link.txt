@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wno-deprecated-declarations -g -g -DHUSKY_DEBUG_MODE -rdynamic CMakeFiles/KVStorePerformanceExample.dir/kvstore_performance_example.cpp.o -o ../KVStorePerformanceExample  -Wl,-rpath,/usr/local/lib ../test/libflexps.a ../lib/libglog.a ../lib/libgflags.a -lzmq -lpthread /usr/local/lib/libhdfs3.so 
